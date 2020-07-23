@@ -7,6 +7,7 @@ export default function CardInput(props) {
       <input
         type="text"
         id="card-input"
+        onChange={e => props.handleChange(e.target.value)}
       />
     </form>
   );
