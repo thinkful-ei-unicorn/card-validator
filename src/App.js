@@ -1,10 +1,15 @@
 import React from 'react';
-import './App.css'
+import './App.css';
+import Header from './Header';
+import CardInput from './CardInput';
+import ValidityOutput from './ValidityOutput';
 
 function App() {
   return (
     <main className='App'>
-      {/* content goes here */}
+      <Header />
+      <CardInput />
+      <ValidityOutput />
     </main>
   );
 }
